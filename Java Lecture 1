@@ -56,9 +56,199 @@ what are java components ?
 2. JRE - java runtime environment - to run java application we need JRE. contain jvm 
 3. JVM - java virtual machine - jvm execute the code. convert class files into binary[bytecode].
 
-Set java path ?
+**Set java path ?
 Advance system setting -> environment variables
-select path and click edit ->  
+select path and click edit -> copy path till bin folder [include bin]
+cmd -> java -version
+
+IDE - integrated development envrinment [application to write and compile code]
+
+
+**Class naming convention in java ?**************************************************************
+class name should start with uppercase
+no special character
+no space
+not start with number
+
+**strcuture of code**
+project -> src -> package -> class -> methods
+
+//java comments - single line comment
+
+/* multiple line comment */ ctrl+shift+/
+*****************************************Day 1 - Lecture ******************************************
+Day-1
+------
+What is java?
+Object oriented programming language.
+
+Types of programming languages
+--------------------
+1) structured --   C, Python
+2) Object based --  VB, VBScript, Python
+3) Object oriented -- C++, Java, C#, Python
+
+oops
+-------
+1) Class
+2) Object
+3) Polymorphism
+4) Inheritance
+5) Abstraction
+6) Encapsulation
+
+
+Features
+-----------
+1) platform independent
+2) case sensitive
+
+
+3 components
+----------------
+1) JDK - Java Developement Kit
+2) JRE - Java Runtime Environment
+3) JVM - Java Virtual Machine
+
+Core java
+Advanced
+
+
+Versions
+----------
+jdk8 - sun microsystems / oracle
+latest version 21
+
+recomended version : JDK11+ 
+
+community
+licensed ( open JDK)
+
+JDK Download link(JDK 17): 
+---------------
+https://www.oracle.com/java/technologies/downloads/#jdk17-windows
+
+
+1) Download and install Java(JDK)
+2) Set Java Path/ Class path
+	Set Java path: C:\Program Files\Java\jdk-17\bin
+
+Command to verify java installation
+------------
+java -version
+
+
+IDE - Integrated Development Environment
+----
+Eclipse
+Java Beans
+Intellij Idea
+etc.....
+
+Eclipse Download link: https://www.eclipse.org/downloads/
+
+
+1) Create a new Java project ( File-->New--Java Project)
+2) create a new java package ( right click on src-->package) 
+3) create a new class( right click on package-->new -->class)
+
+Naming convensions
+----
+1) Class name should start with Uppercase
+2) Class name should not start with number
+3) Class name contains _  ( Underscore)
+4) Special characters are not allowed
+5) class name contains number/s
+
+
+Ctrl  = CMD
+Syso --> Ctrl +space(CMD+Space)
+
+// single line comment
+/*    */    multi line comment
+
+
+
+Crtl+Shift+/    multi line comment
+Ctrl+/    single line comment
+
+
+*****************************************Day 2 - lecture******************************************
+Variables and Data types
+-----------------------
+Variable is a container which can hold data.
+to represent data we need variables.
+
+int x=100
+int age=30
+float price=150.50
+double price=150.50
+String name="John"
+char grad='A'
+
+Data types
+-----------
+Data type represents type of data.
+
+1) Premitive
+
+byte, short, int, long -----> number without decimal
+float, double ------> decimal number
+char   --------> single character (single quote)
+boolean   ---> true/false
+
+
+2) Non-premitive/ Derived /Collections
+String
+ArrayList
+HashMap
+HashSet
+Object
+etc......
+
+DataType	Size			Description
+--------------------------------------------------
+byte		1 byte			Stores whole numbers from -128 to 127
+
+short		2 bytes	    		Stores whole numbers from -32,768 to 32,767
+int		4 bytes			Stores whole numbers from -2,147,483,648 to 2,147,483,647
+long		8 bytes			Stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+
+float		4 bytes		   Stores fractional numbers. Sufficient for storing 7 decimal digits
+double		8 bytes		   Stores fractional numbers. Sufficient for storing 15 decimal digits
+
+boolean		1 bit		      	Stores true or false values
+char		2 bytes			Stores a single character/letter
+
+
+char ch='ABC';  // invalid
+String ch='ABC'    // invalid
+
+String ch='A'     // invalid
+String ch="A"     // valid
+
+
+boolean b=true;   //valid
+boolean b="true"   // invalid
+
+String s=true;   // not valid
+
+String s="true";  // valid
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
