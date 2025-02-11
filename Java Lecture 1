@@ -20,4 +20,68 @@ polymorphism
 abstraction
 encapsulation
 
+---------------------------Day 01 - 10th Feb 2025 -----------------------------------------
+types of variables in java 
+  local  
+  instance
+  static variable
+
+Selenium Architecture 
+  W3C protocol - depricated 
+  browser driver - no need to write the path explicitly now after selenium 4.0
+
+Types of progamming language ?
+  1. structured - C, python
+  2. object based - VB, python
+  3. object orineted - java, python
+
+What is java ?
+Java is object oriented programming language 
+  OOPs concepts
+    object
+    class
+    inheritance
+    polymorphism
+    abstraction
+    encapsulation
+
+
+what are Features of java ?
+  1. platform independent - write once run anywhere 
+  2. case sensitive language - there is difference between uppercase and lowercase characters 
+  3. 
+
+what are java components ? 
+1. JDK - java development kit - complete java  kit. contain entire java application. superset of all
+2. JRE - java runtime environment - to run java application we need JRE. contain jvm 
+3. JVM - java virtual machine - jvm execute the code. convert class files into binary[bytecode].
+
+Set java path ?
+Advance system setting -> environment variables
+select path and click edit ->  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
